@@ -5,6 +5,10 @@ The APU Medical Info System is designed to secure and manage sensitive data for 
 
 ## Table of Contents
 - [Introduction](#introduction)
+As an established hospital in the city area of Malaysia, Kuala Lumpur, that provides medical treatment to residents around Klang Valley, APU Medical Center has stored personal and sensitive details in its database, including staff personal information and patients’ diagnosis details. APU Medical Center is responsible for protecting staff and patients’ personal information and sensitive details. But the current database design and implementation by the application developers are not secure enough to protect current users’ data that is stored in the APU Medical Center database.  
+
+To make the APU Medical Center database more secure, our team has been appointed to develop a more secure database security system to enhance the security of the database based on the listed functional and security requirements provided by the security architect. In this project, various data protection methods for various types of data will be implemented to the APU Medical Center database to make it more secure and able to protect users’ information. Permission management for each different user including data admin, doctors and patients will also be applied into the database to prevent unauthorized access to other users’ data. Auditing will also be included in this database to prevent data fraud from happening at APU Medical Center. 
+
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
