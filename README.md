@@ -12,9 +12,9 @@ The APU Medical Info System is designed to secure and manage sensitive data for 
 - [Contributors](#contributors)
 
 ## Features
-- **Data Security**: Implements enhanced security measures to protect sensitive data.
-- **Permission Management**: Different roles (e.g., Data Admin, Doctors, Patients) have specific access controls.
-- **Auditing**: Monitors database activities to prevent data fraud.
+- **Data Security**: The project employs robust encryption techniques, including both symmetric and asymmetric encryption, to secure sensitive data like patient details and medical diagnoses. Additionally, Row-Level Security (RLS) and Column-Level Security (CLS) are implemented to ensure that only authorized users can access or modify specific rows or columns of data, enhancing overall data protection.
+- **Permission Management**: Role-Based Access Control (RBAC) is used to assign specific permissions based on user roles, ensuring that each role has access only to the data and functionalities they need. This granular control is further refined with precise permission settings on views, tables, and stored procedures, minimizing the risk of unauthorized access.
+- **Auditing**: The project includes comprehensive auditing features to monitor and log all database activities. This ensures that any unauthorized or suspicious actions are tracked, providing a reliable mechanism for maintaining data integrity and investigating potential security breaches.
 
 ## Installation
 1. Clone the repository:
